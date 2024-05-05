@@ -32,7 +32,7 @@ PEMS04:
     spatial_embedding_dim: 0
     adaptive_embedding_dim: 80
     feed_forward_dim: 256
-    num_heads: 4
+    num_heads: 2
     num_layers: 3
     dropout: 0.1
 
