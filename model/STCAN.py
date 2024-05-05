@@ -249,7 +249,7 @@ class STCrossAttentionBlock(nn.Module):
         return out
 
 
-class MyModel(nn.Module):
+class STCAN(nn.Module):
     def __init__(
         self,
         device,
@@ -270,7 +270,7 @@ class MyModel(nn.Module):
         dropout=0.1,
         use_mixed_proj=True,
     ):
-        super(MyModel, self).__init__()
+        super(STCAN, self).__init__()
 
         self.num_nodes = num_nodes
         self.in_steps = in_steps
@@ -389,5 +389,5 @@ class MyModel(nn.Module):
 
 
 if __name__ == "__main__":
-    model = MyModel(207, 12, 12)
+    model = STCAN(207, 12, 12)
     summary(model, [64, 12, 207, 3])
