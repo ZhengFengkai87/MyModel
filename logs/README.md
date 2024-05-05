@@ -1,1 +1,1 @@
-Directory for training logs.
+Directory for training logs
