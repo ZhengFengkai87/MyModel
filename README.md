@@ -1,6 +1,6 @@
-## Paper: xxx
+## STCAN: A Traffic Forecasting Method Based on Spatial-Temporal Cross-Attention Network
 
-This repository is the original pytorch implementation for STCAN (Paper: xxx).
+This repository is the original pytorch implementation for STCAN.
 
 ### Project Structure:
 
