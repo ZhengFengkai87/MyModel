@@ -2,7 +2,7 @@
 
 This repository is the original pytorch implementation for STCAN.
 
-### Project Structure:
+### Project Structure
 
 * `data`: datasets for experiments
     + PEMS04
